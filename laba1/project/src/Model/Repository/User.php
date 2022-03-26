@@ -99,7 +99,7 @@ class User
                 'name' => 'Nikel',
                 'login' => 'student',
                 'password' => '$2a$12$sUFCp.b27/rgTVPL.nZptOnUVOMFOCQTPTChwqC7paE.XxkGyxgh6', // student_Nikel
-                'role' => $test
+                'role' => $user
             ],
             [
                 'id' => 5,
