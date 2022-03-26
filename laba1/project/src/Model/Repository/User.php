@@ -54,7 +54,7 @@ class User
             $user['id'],
             $user['name'],
             $user['login'],
-            $user['password'],
+            $user['password'], // Crypt_Blowfish
             new Entity\Role($role['id'], $role['title'], $role['role'])
         );
     }
@@ -96,6 +96,13 @@ class User
             ],
             [
                 'id' => 4,
+                'name' => 'Nikel',
+                'login' => 'student',
+                'password' => '$2a$12$sUFCp.b27/rgTVPL.nZptOnUVOMFOCQTPTChwqC7paE.XxkGyxgh6', // student_Nikel
+                'role' => $test
+            ],
+            [
+                'id' => 5,
                 'name' => 'Test Testov Testovich',
                 'login' => 'testok',
                 'password' => '$2y$10$vQvuFc6vQQyon0IawbmUN.3cPBXmuaZYsVww5csFRLvLCLPTiYwMa', // testss
