@@ -98,6 +98,11 @@ class Product
                 'name' => 'Lua',
                 'price' => 5000,
             ],
+            [
+                'id' => 12,
+                'name' => 'Rust',
+                'price' => 12500,
+            ],
         ];
 
         if (!count($search)) {
